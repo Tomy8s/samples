@@ -2,7 +2,13 @@
 
 ## Building
 
+### Using base builder
+
 `pack build npm-sample --buildpack paketo-buildpacks/nodejs --builder paketobuildpacks/builder:base`
+
+### Using full builder
+
+`pack build npm-sample --buildpack paketo-buildpacks/nodejs --builder paketobuildpacks/builder:full`
 
 ## Running
 

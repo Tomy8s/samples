@@ -2,11 +2,11 @@
 
 ## Building
 
-`pack build npm-sample --buildpack paketo-buildpacks/nodejs`
+`pack build npm-sample --buildpack paketo-buildpacks/nodejs --builder paketobuildpacks/builder:base`
 
 ## Running
 
-`docker run --interactive --tty --init --publish 8080:8080 npm-sample`
+`docker run --init --publish 8080:8080 npm-sample`
 
 ## Viewing
 
